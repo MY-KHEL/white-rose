@@ -25,7 +25,7 @@ const Volunteer = () => {
 
                                 }}
                                 className="">
-                                <h1 className="text-4xl my-4 font-semibold cormorant-font italic text-green text-center md:text-left">Join our Passionate community</h1>
+                                <h1 className="text-4xl my-4 font-semibold cormorant-font italic text-green  text-left">Join our Passionate community</h1>
 
                                 <p className=" text-lg leading-6 rubik-font">If you&apos;re passionate about empowering young girls and creating positive change. Join us to unlock the potential of the beautiful girls in our community and build a brighter future. Volunteers are crucial in the work we do. </p>
                             </motion.div>
@@ -45,8 +45,8 @@ const Volunteer = () => {
                                     }
 
                                 }}
-                                className="">
-                                <button className="bg-green/90 cursor-pointer hover:bg-green mt-4 rounded-full rubik-font text-lg text-white px-4 py-[8px] ">
+                                className="w-fit max-md:mx-auto">
+                                <button className="bg-green/90 cursor-pointer hover:bg-green mt-4 rounded-full rubik-font text-lg text-white px-4 py-[8px]  ">
                                     Become a Volunteer <ChevronRight size={18} color="white" className="inline-flex items-center" />
                                 </button>
                             </motion.div>

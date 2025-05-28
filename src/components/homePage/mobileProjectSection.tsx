@@ -56,8 +56,8 @@ export const MobileProjectSection = () => {
                 </CarouselContent>
 
             </Carousel>
-              <div className="mx-auto  md:w-[200px] text-green">
-                    <button className="border border-green px-4 py-[8px] mt-6 rounded-full"> Read More <ChevronRight size={18} color="#5C9341" className="inline-flex items-center"/></button>
+              <div className=" w-fit mx-auto  md:w-[200px] text-green">
+                    <button className="border border-green px-4 py-[8px] mt-6 rounded-full "> Read More <ChevronRight size={18} color="#5C9341" className="inline-flex items-center"/></button>
                 </div>
             </div>
         </>
