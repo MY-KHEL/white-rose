@@ -28,7 +28,7 @@ export const SubFooter = ()=>{
             
                                             }}>
             <h1 className=" text-3xl md:text-4xl mt-6 md:mt-15 cormorant-font italic p-2 ">Join Our Community</h1>
-            <p className="text-md md:w-[400px] mx-auto mt-4 hidden md:block rubik-font text-lg">If you`&apos;`re passionate about empowering young girls and creating positive change. Together let`&apos;`s unlock the potential of our girls and build a brighter future.</p></motion.div>
+            <p className="text-md md:w-[400px] mx-auto mt-4 hidden md:block rubik-font text-lg">If you&apos;re passionate about empowering young girls and creating positive change. Together let&apos;s unlock the potential of our girls and build a brighter future.</p></motion.div>
                     <motion.div
                                     initial={{
                                         x: -30,

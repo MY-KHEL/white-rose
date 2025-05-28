@@ -27,7 +27,7 @@ const Volunteer = () => {
                                 className="">
                                 <h1 className="text-4xl my-4 font-semibold cormorant-font italic text-green text-center md:text-left">Join our Passionate community</h1>
 
-                                <p className=" text-lg leading-6 rubik-font">If you`&apos;`re passionate about empowering young girls and creating positive change. Join us to unlock the potential of the beautiful girls in our community and build a brighter future. Volunteers are crucial in the work we do. </p>
+                                <p className=" text-lg leading-6 rubik-font">If you&apos;re passionate about empowering young girls and creating positive change. Join us to unlock the potential of the beautiful girls in our community and build a brighter future. Volunteers are crucial in the work we do. </p>
                             </motion.div>
 
                             <motion.div
