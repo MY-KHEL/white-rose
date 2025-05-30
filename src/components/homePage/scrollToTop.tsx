@@ -5,9 +5,15 @@ import { usePathname } from "next/navigation"
 export const ScrollToTop=()=>{
     const pathname = usePathname()
 
-    useEffect(()=>{
-        window.scrollTo({top:0,behavior:'auto'});
-    },[pathname]);
-    
-    return null
+   useEffect(() => {
+    // Delay scrolling until DOM is updated
+    const timeout = setTimeout(() => {
+      window.scrollTo({ top: 0, behavior: "auto" });
+    }, 0);
+
+    return () => clearTimeout(timeout);
+  }, [pathname]);
+
+  return null;
+
 }
