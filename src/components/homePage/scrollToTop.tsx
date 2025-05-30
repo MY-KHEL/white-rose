@@ -6,7 +6,7 @@ export const ScrollToTop=()=>{
     const pathname = usePathname()
 
    useEffect(() => {
-    // Delay scrolling until DOM is updated
+ 
     const timeout = setTimeout(() => {
       window.scrollTo({ top: 0, behavior: "auto" });
     }, 0);
