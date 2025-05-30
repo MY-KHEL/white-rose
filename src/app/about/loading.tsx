@@ -2,7 +2,9 @@
 export default function AboutLoading(){
     return(
         <>
-        <div>About Loading ...</div>
+        <div className="w-fit mx-auto">
+            <span className="loader"></span>
+        </div>
         </>
     )
 }

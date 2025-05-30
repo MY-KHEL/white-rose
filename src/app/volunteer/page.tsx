@@ -1,4 +1,5 @@
 "use client"
+import { SlantLeaf } from "@/components/homePage/slantLeaf";
 import { motion, spring } from "framer-motion";
 import { ChevronRight } from "lucide-react";
 import Link from "next/link";
@@ -7,7 +8,7 @@ const Volunteer = () => {
     return (
         <>
             <div className="md:px-[80px] md:py-15 p-2">
-
+                 <SlantLeaf/>
                 <div className="grid md:grid-cols-2 gap-8 ">
 
                     <div className="flex items-center justify-center">
@@ -26,7 +27,7 @@ const Volunteer = () => {
 
                                 }}
                                 className="">
-                                <h1 className="text-4xl my-4 font-semibold cormorant-font italic text-green  text-left">Join our Passionate community</h1>
+                                <h1 className="text-4xl my-4 font-semibold cormorant-font italic text-green  text-center lg:text-left">Join our Passionate community</h1>
 
                                 <p className=" text-lg leading-6 rubik-font">If you&apos;re passionate about empowering young girls and creating positive change. Join us to unlock the potential of the beautiful girls in our community and build a brighter future. Volunteers are crucial in the work we do. </p>
                             </motion.div>

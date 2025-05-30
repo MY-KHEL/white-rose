@@ -6,7 +6,7 @@ export const ScrollToTop=()=>{
     const pathname = usePathname()
 
     useEffect(()=>{
-        window.scroll(0,0);
+        window.scrollTo({top:0,behavior:'auto'});
     },[pathname]);
     
     return null

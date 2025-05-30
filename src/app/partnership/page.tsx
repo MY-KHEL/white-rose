@@ -28,7 +28,7 @@ const Partnership = () => {
 
                                 }}
                                 className="">
-                                <h1 className="text-4xl my-4 font-semibold italic text-green  cormorant-font text-left">Support our Work</h1>
+                                <h1 className="text-4xl my-4 font-semibold italic text-green  cormorant-font text-center lg:text-left">Support our Work</h1>
 
                                 <p className=" text-lg leading-6 rubik-font">When you partner with the White Roses foundation, you&apos;re not just giving you are joining us to unlock the potentials and empower marginalized young girls. </p>
                             </motion.div>
