@@ -2,6 +2,7 @@
 import { easeInOut, motion } from "framer-motion"
 import { ChevronRight } from "lucide-react"
 import Image from "next/image"
+import Link from "next/link"
 
 export const ProjectSection =()=>{
     const container ={
@@ -13,7 +14,7 @@ export const ProjectSection =()=>{
             opacity:1,
             transition:{
                 duration:2,
-                 staggerChildren:0.7
+                 staggerChildren:0.4
                 
             }
         }
@@ -63,7 +64,8 @@ export const ProjectSection =()=>{
                    
                 </motion.div>
                 <div className="mx-auto  md:w-[200px] text-green">
-                    <button className="border border-green px-4 py-[8px] mt-6 rounded-full"> Read More <ChevronRight size={18} color="#5C9341" className="inline-flex items-center"/></button>
+                 <Link href={'/about'}>
+                    <button className="border border-green px-4 py-[8px] mt-6 rounded-full"> Read More <ChevronRight size={18} color="#5C9341" className="inline-flex items-center"/></button></Link>
                 </div>
             </div>
         </div>

@@ -51,25 +51,24 @@ export const HeroSection = () => {
                 <div className="">
                     <Leaf />
                 </div>
+                
                    <div className="absolute  bottom-0  opacity-60 w-full h-full">
             <Image src={'/shiny.png'} alt="rose-image" fill className="w-full object-cover"/>
+           
+        </div>           <div className="absolute bottom-0 left-0">
+            <Image src={'/white_rose.png'} alt="rose-image" width={300} height={200} className="w-[100px] lg:w-[200px]"/>
+           
+        </div>
+        <div className="absolute bottom-0   right-0">
+            <Image src={'/rose2.png'} alt="rose-image" width={300} height={200} className="w-[100px] lg:w-[200px]"/>
            
         </div>
             </div>
 
-            {/* <div className="absolute  left-0">
-            <Image src={'/white_rose.png'} alt="rose-image" width={300} height={200} className="w-[100px] lg:w-[200px]"/>
-           
-        </div>
-        <div className="absolute   right-0">
-            <Image src={'/rose2.png'} alt="rose-image" width={300} height={200} className="w-[100px] lg:w-[200px]"/>
-           
-        </div> */}
 
 
-            {/* 
-         </div>
-    */}
+
+    
         </>
     )
 }

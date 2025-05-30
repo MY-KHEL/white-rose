@@ -5,6 +5,7 @@ import "./globals.css";
 
 import { SubFooter } from "@/components/homePage/subFooter";
 import { Footer } from "@/components/homePage/Footer";
+import { ScrollToTop } from "@/components/homePage/scrollToTop";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,7 +32,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        
+        <ScrollToTop/>
         {children}
         <SubFooter/>
         <Footer/>

@@ -5,6 +5,7 @@ import {
 import { Instagram, Linkedin } from "lucide-react"
 import Image from "next/image"
 import { Separator } from "../ui/separator"
+import Link from "next/link"
 export const Footer = () => {
     const getYear = new Date().getFullYear()
     return (
@@ -61,8 +62,11 @@ export const Footer = () => {
                     </div>
                     <div className="col-span-2  text-center"> {getYear} Abigail X Mykhel. All Rights Reserved.</div>
                     <div className="hidden md:flex col-span-1 text-right">
-                        <div className="flex gap-4 items-center justify-end"> <Instagram size={24} color="white" />
-                            <Linkedin size={24} color="white" />
+                        <div className="flex gap-4 items-center justify-end"> 
+                            <Link href={"https://www.instagram.com/whiterosesf?igsh=MTZobDV1aGVmMWUwdw==" } target="_blank"><Instagram size={24} color="white" /></Link>
+                            
+                        <Link href={"https://www.linkedin.com/company/the-white-roses-foundation/"} target="_blank" >
+                            <Linkedin size={24} color="white" /></Link>
                         </div>
                     </div>
                 </div>

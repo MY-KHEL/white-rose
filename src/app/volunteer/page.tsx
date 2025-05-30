@@ -1,6 +1,7 @@
 "use client"
 import { motion, spring } from "framer-motion";
 import { ChevronRight } from "lucide-react";
+import Link from "next/link";
 
 const Volunteer = () => {
     return (
@@ -46,9 +47,10 @@ const Volunteer = () => {
 
                                 }}
                                 className="w-fit max-md:mx-auto">
+                                    <Link href={"https://alvo.chat/64qD"} target="_blank">
                                 <button className="bg-green/90 cursor-pointer hover:bg-green mt-4 rounded-full rubik-font text-lg text-white px-4 py-[8px]  ">
                                     Become a Volunteer <ChevronRight size={18} color="white" className="inline-flex items-center" />
-                                </button>
+                                </button></Link>
                             </motion.div>
                         </div>
                     </div>

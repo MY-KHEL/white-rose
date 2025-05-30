@@ -1,5 +1,6 @@
 "use client"
 import { easeIn, easeOut, motion } from "framer-motion"
+import Link from "next/link"
 export const ThirdSection = () => {
     const texts = [
         {
@@ -111,7 +112,10 @@ export const ThirdSection = () => {
                                     }}
                                     src={'/classic.jpg'} alt="about-image" className="absolute w-full h-full object-cover rounded-2xl " />
                             </div>
-                            <h1 className=" mt-8 px-4 py-2 rounded-md text-center w-fit mx-auto border border-green cormorant-font">MARY NTEKIM</h1>
+                            <Link href={"https://maryntekim.wordpress.com/cv-bio/"}  target="_blank">
+                            
+                            
+                            <h1 className=" mt-8 px-4 py-2 rounded-md text-center w-fit mx-auto border border-green cormorant-font">MARY NTEKIM</h1></Link>
                         </div>
                     </div>
                 </div>

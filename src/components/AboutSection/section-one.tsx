@@ -51,6 +51,7 @@ export const FirstSection =()=>{
 
                                 }}
                                 className=" my-3">
+                                   
                                 <h1 className="text-4xl my-4 font-semibold text-green cormorant-font italic text-center md:text-left">About Us</h1>
 
                                 

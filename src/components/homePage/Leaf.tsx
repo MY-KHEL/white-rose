@@ -1,5 +1,6 @@
 "use client"
 import { motion } from "framer-motion"
+import Image from "next/image"
 
 export const Leaf = () => {
     const pathVariants ={
@@ -53,10 +54,68 @@ export const Leaf = () => {
              
             </motion.svg>
            
+            <div className="block md:hidden absolute top-7 w-full ">
+                <div className="">
+                    <motion.div 
+                        initial={{
+                        opacity:0,
+                        rotate:0,
 
+                       
+                    }} 
+                    animate={{
+                        opacity:1,
+                        rotate:-6,
+                         transition:{
+                            delay:1,
+                            duration:2
+                        }
+                    }}
+                    className="w-[200px] h-[200px]  relative z-30 mx-auto">
+                     <Image src={"/first-hero.png"} alt="hero-image" fill className="object-cover rounded-2xl " />
+                    </motion.div>
+                    
+                </div>
+            </div>
 
-            <div className="absolute top-10 left-30">
-              
+            <div className="hidden md:block absolute top-0 left-40 w-[70%]">
+              <div className=" p-6 w-full flex justify-between items-center ">
+                
+                    <motion.div initial={{
+                        opacity:0,
+                        rotate:0,
+                       
+                    }} 
+                    animate={{
+                        opacity:1,
+                        rotate:6,
+                         transition:{
+                            delay:1,
+                            duration:1
+                        }
+                    }}
+                    className=" w-[200px] h-[250px] relative z-30 ">
+                        <Image src={"/first-hero.png"} alt="hero-image" fill className="object-cover rounded-2xl " />
+                    </motion.div>
+                    <motion.div
+                    initial={{
+                        opacity:0,
+                        rotate:0,
+                       
+                    }} 
+                    animate={{
+                        opacity:1,
+                        rotate:-6,
+                         transition:{
+                            delay:1,
+                            duration:1
+                        }
+                    }}
+                    className=" w-[200px] h-[250px] relative z-30 -rotate-6">
+                        <Image src={"/second-hero.png"} alt="hero-image" fill className="object-cover rounded-2xl " />
+                    </motion.div>
+                
+              </div>
             </div>
             </div>
 
