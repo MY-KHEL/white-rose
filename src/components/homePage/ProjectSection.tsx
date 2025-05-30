@@ -65,7 +65,8 @@ export const ProjectSection =()=>{
                 </motion.div>
                 <div className="mx-auto  md:w-[200px] text-green">
                  <Link href={'/about'}>
-                    <button className="border border-green px-4 py-[8px] mt-6 rounded-full"> Read More <ChevronRight size={18} color="#5C9341" className="inline-flex items-center"/></button></Link>
+                    <button className="border cursor-pointer border-green px-4 py-[8px] mt-6 rounded-full"> Read More <ChevronRight size={18} color="#5C9341" className="inline-flex items-center"/></button>
+                    </Link>
                 </div>
             </div>
         </div>

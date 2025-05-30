@@ -7,7 +7,7 @@ export const HeroSection = () => {
 
     return (
         <>
-            <div className="w-full  bg-linear-to-b md:py-20 from-white from-10% to-lightgreen relative to-80%">
+            <div className="w-full  bg-linear-to-b md:py-20 from-white from-10% to-lightgreen relative to-80% pb-10">
                 <div className="md:w-[600px] mx-auto  md:mt-12 ">
                     <motion.div
                         initial={{
@@ -23,7 +23,7 @@ export const HeroSection = () => {
 
                         }}
                         className="">
-                        <h1 className="text-4xl text-center my-4 font-semibold italic cormorant-font ">Where every girl is a White Rose</h1>
+                        <h1 className="text-4xl text-center mt-14 md:mt-0 mb-10 md:my-4 md:mb-1 font-semibold italic cormorant-font ">Where every girl is a White Rose</h1>
                         <p className="text-center text-lg rubik-font"> Nurturing the beauty, power and purpose in every young girl</p>
                     </motion.div>
                     <motion.div
@@ -59,8 +59,8 @@ export const HeroSection = () => {
             <Image src={'/white_rose.png'} alt="rose-image" width={300} height={200} className="w-[100px] lg:w-[200px]"/>
            
         </div>
-        <div className="absolute bottom-0   right-0">
-            <Image src={'/rose2.png'} alt="rose-image" width={300} height={200} className="w-[100px] lg:w-[200px]"/>
+        <div className="absolute -bottom-4   right-0">
+            <Image src={'/rose2.png'} alt="rose-image" width={150} height={200} className="w-[90px] lg:w-[150px]"/>
            
         </div>
             </div>

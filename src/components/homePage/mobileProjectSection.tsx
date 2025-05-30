@@ -10,6 +10,7 @@ import { useRef } from "react"
 
 import { ChevronRight } from "lucide-react"
 import Image from "next/image"
+import Link from "next/link"
 
 export const MobileProjectSection = () => {
     const plugin = useRef<any>(
@@ -57,7 +58,9 @@ export const MobileProjectSection = () => {
 
             </Carousel>
               <div className=" w-fit mx-auto  md:w-[200px] text-green">
-                    <button className="border border-green px-4 py-[8px] mt-6 rounded-full "> Read More <ChevronRight size={18} color="#5C9341" className="inline-flex items-center"/></button>
+                      <Link href={'/about'}>
+                    <button className="border cursor-pointer border-green px-4 py-[8px] mt-6 rounded-full"> Read More <ChevronRight size={18} color="#5C9341" className="inline-flex items-center"/></button>
+                    </Link>
                 </div>
             </div>
         </>

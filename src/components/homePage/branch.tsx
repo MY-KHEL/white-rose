@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 export const Branch=()=>{
     return(
         <>
-        <svg height="208" className="w-full" viewBox="0 0 1440 208" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg height="208" className="w-full " viewBox="0 0 1440 208" fill="none" xmlns="http://www.w3.org/2000/svg">
 <motion.path
 initial={{
     opacity:0,

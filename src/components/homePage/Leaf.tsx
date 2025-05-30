@@ -36,7 +36,7 @@ export const Leaf = () => {
         <>
         <div className="relative">
             <motion.svg
-                width="200" height="217" viewBox="0 0 1448 217" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full relative">
+                width="200" height="217" viewBox="0 0 1448 217" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full hidden md:block relative">
                 <motion.path variants={pathVariants} initial="initial" animate="animate"
                  
                  d="M4 204C6.44931 191.908 29.6962 180.231 42.4384 170.667C60.2837 157.272 83.2774 149.017 105.381 137.833C155.577 112.434 186.588 76.1449 199.796 40.5793C201.847 35.0563 204.379 4 181.297 4C159.52 4 137.779 35.8163 138.054 44.9488C138.697 66.3376 162.255 84.6673 182.258 102.377C209.884 126.836 229.123 135.391 281.718 143.326C312.603 147.986 344.447 150.614 374.931 143.825C448.548 127.43 517.727 106.298 594.991 93.8876C654.202 84.377 727.748 76.0096 788.625 84.8989C850.075 93.8719 913.692 100.404 974.09 110.866C998.791 115.145 997.957 140.947 993.309 151.815C991.329 156.446 965.301 165.53 959.676 158.806C945.654 142.048 961.9 124.617 982.258 111.99C1008.52 95.7019 1027.85 89.5606 1067.78 89.3933C1125.04 89.1533 1164.17 92.8165 1210.49 109.618C1227.24 115.695 1238.71 122.372 1260.22 122.976C1275.93 123.418 1291.81 123.101 1307.54 123.101C1341.47 123.101 1370.62 117.565 1400.76 109.618C1412.32 106.57 1438.11 100.007 1444 93.8876" stroke="#5C9341" strokeOpacity="0.7" strokeWidth="6" strokeLinecap="round"  />
@@ -53,30 +53,7 @@ export const Leaf = () => {
                 </g>
              
             </motion.svg>
-           
-            <div className="block md:hidden absolute top-7 w-full ">
-                <div className="">
-                    <motion.div 
-                        initial={{
-                        opacity:0,
-                        rotate:0,
-
-                       
-                    }} 
-                    animate={{
-                        opacity:1,
-                        rotate:-6,
-                         transition:{
-                            delay:1,
-                            duration:2
-                        }
-                    }}
-                    className="w-[200px] h-[200px]  relative z-30 mx-auto">
-                     <Image src={"/first-hero.png"} alt="hero-image" fill className="object-cover rounded-2xl " />
-                    </motion.div>
-                    
-                </div>
-            </div>
+      
 
             <div className="hidden md:block absolute top-0 left-40 w-[70%]">
               <div className=" p-6 w-full flex justify-between items-center ">

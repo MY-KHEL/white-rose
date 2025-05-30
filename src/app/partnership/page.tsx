@@ -3,6 +3,7 @@ import { ChevronRight } from "lucide-react";
 import { motion, spring } from "framer-motion"
 import { SlantLeaf } from "@/components/homePage/slantLeaf";
 import Link from "next/link";
+import { Button } from "@/components/ui/button";
 
 const Partnership = () => {
     return (
@@ -49,10 +50,12 @@ const Partnership = () => {
 
                                 }}
                                 className="w-fit max-md:mx-auto">
-                                    <Link href={"wa.chatfuel.com/Whiterosesfoundation"} target="_blank"></Link>
+                                   <Link href={"https://wa.chatfuel.com/Whiterosesfoundation"} target="_blank" >
                                 <button className="bg-green/90 cursor-pointer hover:bg-green mt-4 rounded-full rubik-font text-lg text-white px-4 py-[8px] ">
-                                    Become a Volunteer <ChevronRight size={18} color="white" className="inline-flex items-center" />
+                                     Become a Volunteer <ChevronRight size={18} color="white" className="inline-flex items-center" />
                                 </button>
+                                     </Link>
+                                     
                             </motion.div>
                         </div>
                     </div>

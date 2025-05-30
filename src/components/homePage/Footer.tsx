@@ -10,7 +10,7 @@ export const Footer = () => {
     const getYear = new Date().getFullYear()
     return (
         <>
-            <div className="bg-green w-full p-2 md:p-10 lg:p-20">
+            <div className="bg-green w-full p-8 md:p-10 lg:p-20">
                 <div className="text-center text-white ">
                     <motion.div className=""
                         initial={{
