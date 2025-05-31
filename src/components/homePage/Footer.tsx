@@ -43,8 +43,11 @@ export const Footer = () => {
                             }
 
                         }}
+                        
                         className="w-fit mt-4 mx-auto">
-                        <button className="border border-white px-4 py-[8px] rounded-full ">👋 Contact Us</button>
+                           
+                           <Link href="mailto:thewhiterosesfoundation@gmail.com">
+                        <button className="border border-white px-4 py-[8px] rounded-full ">👋 Contact Us</button></Link>
                     </motion.div>
 
                     <Separator className="my-4  lg:my-10" />
