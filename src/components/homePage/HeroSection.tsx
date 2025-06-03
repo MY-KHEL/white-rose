@@ -3,6 +3,7 @@ import { motion, spring } from "framer-motion"
 import { ChevronRight } from "lucide-react"
 import Image from "next/image"
 import { Leaf } from "./Leaf"
+import Link from "next/link"
 export const HeroSection = () => {
 
     return (
@@ -42,9 +43,11 @@ export const HeroSection = () => {
 
                         }}
                         className="w-fit  mx-auto">
-                        <button className="bg-green text-white mt-3 px-4 py-[8px] rounded-full">
+                               <Link href={"https://wa.chatfuel.com/Whiterosesfoundation"} target="_blank" >
+                        <button className="bg-green text-white mt-3 px-4 z-[40] relative cursor-pointer py-[8px] rounded-full">
                             Make a Donation <ChevronRight size={18} color="white" className="inline-flex items-center" />
-                        </button>
+                        </button></Link>
+                        
                     </motion.div>
                 </div>
 
@@ -53,14 +56,14 @@ export const HeroSection = () => {
                 </div>
                 
                    <div className="absolute  bottom-0  opacity-60 w-full h-full">
-            <Image src={'/shiny.png'} alt="rose-image" fill className="w-full object-cover"/>
+            <Image src={'/shiny.png'} alt="rose-image" fill className="w-full object-cover pointer-events-none"/>
            
         </div>           <div className="absolute bottom-0 left-0">
-            <Image src={'/white_rose.png'} alt="rose-image" width={300} height={200} className="w-[100px] lg:w-[200px]"/>
+            <Image src={'/white_rose.png'} alt="rose-image" width={300} height={200} className="w-[100px] pointer-events-none lg:w-[200px]"/>
            
         </div>
         <div className="absolute -bottom-4   right-0">
-            <Image src={'/rose2.png'} alt="rose-image" width={150} height={200} className="w-[90px] lg:w-[150px]"/>
+            <Image src={'/rose2.png'} alt="rose-image" width={150} height={200} className="w-[90px] lg:w-[150px]pointer-events-none"/>
            
         </div>
             </div>

@@ -10,6 +10,7 @@ import Image from "next/image";
 import { useEffect } from "react";
 import { MobileNav } from "./mobileNav";
 import { Navbar } from "./navBar";
+import Link from "next/link";
 
 
 
@@ -50,9 +51,10 @@ export const SideHeader = () => {
           </div>
 
           <div className="button hidden md:inline-flex  ">
-            <button className="bg-green text-white px-4 py-[8px] rounded-full">
+            <Link href={"https://wa.chatfuel.com/Whiterosesfoundation"} target="_blank" >
+            <button className="bg-green text-white px-4 py-[8px] rounded-full cursor-pointer">
               Make a Donation <ChevronRight size={18} color="white" className="inline-flex items-center"/>
-            </button>
+            </button></Link>
           </div>
           <div className="md:hidden">
             <Drawer>
