@@ -18,8 +18,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Garden Website",
-  description: "",
+  title: "White roses Foundation",
+  description: "Where every girl is a white rose",
 };
 
 export default function RootLayout({
