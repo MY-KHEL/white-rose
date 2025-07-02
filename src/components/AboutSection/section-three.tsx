@@ -19,9 +19,6 @@ export const ThirdSection = () => {
             content: "Under her leadership, White Roses Foundation continues to be a growing light in the lives of girls who need it most."
         },
         {
-            content: "Under her leadership, White Roses Foundation continues to be a growing light in the lives of girls who need it most."
-        },
-        {
             content: "She's also a blog writer on Wordpress specializing on topics about purpose."
         },
     ]
