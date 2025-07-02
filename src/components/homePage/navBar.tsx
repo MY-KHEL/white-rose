@@ -12,7 +12,7 @@ export const Navbar = () => {
                     <NavigationMenuList>
                         {navDetails.map((item,index)=>(
                         <NavigationMenuItem key={index}>
-                                    <NavigationMenuLink href={item.link} className={pathname===item.link? "font-semibold text-green":'font-normal text-black'}>{item.title} </NavigationMenuLink>
+                                    <NavigationMenuLink href={item.link} className={pathname===item.link? "font-semibold text-green md:text-sm lg:text-md":'font-normal text-black md:text-sm lg:text-md'}>{item.title} </NavigationMenuLink>
                                 </NavigationMenuItem>
                         ))}
                         

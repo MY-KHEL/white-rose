@@ -46,7 +46,7 @@ export const SideHeader = () => {
               <Image src={'/logo.jpg'} alt="site-logo" width={100} height={100} className="w-full"/>
             </div>
           </div>
-          <div className="hidden md:inline-flex">
+          <div className="hidden lg:inline-flex">
             <Navbar />
           </div>
 
@@ -56,7 +56,7 @@ export const SideHeader = () => {
               Make a Donation <ChevronRight size={18} color="white" className="inline-flex items-center"/>
             </button></Link>
           </div>
-          <div className="md:hidden">
+          <div className="lg:hidden">
             <Drawer>
 
               <DrawerTrigger>
