@@ -12,9 +12,9 @@ export const ImpartSection = () => {
   const succesfulOutreaches = useTransform(count2, (latest) => Math.round(latest))
   const schoolsImpacted = useTransform(count3, (latest) => Math.round(latest))
 
-  const animatedGirls = useMotionTemplate`${girlsImpacted}`
-  const animatedSuccess = useMotionTemplate`${succesfulOutreaches}`
-  const animatedSchools = useMotionTemplate`${schoolsImpacted}`
+  const animatedGirls = useMotionTemplate`${girlsImpacted}+`
+  const animatedSuccess = useMotionTemplate`${succesfulOutreaches}+`
+  const animatedSchools = useMotionTemplate`${schoolsImpacted}+`
 
   const ref = useRef(null)
   const isInView = useInView(ref, { once: true }) // Runs only once
