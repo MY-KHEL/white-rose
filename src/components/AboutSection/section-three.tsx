@@ -13,7 +13,7 @@ export const ThirdSection = () => {
             content: "Her heart, however, lies in advocacy and transformation. Through the White Roses Foundation, she channels her faith and life experience into supporting vulnerable girls in rural Nigerian communities, helping them build confidence, faith, and life-changing skills."
         },
         {
-            content: "Mary is also a trained security professional and former Investigator at Strict Guards Security Agency, where she developed leadership and operational expertise. She brings this same commitment and excellence to her work in social impact."
+            content: "Mary is also a trained security professional and former Investigator at Strict Guards Security Agency, where she developed leadership and operational expertise. She holds a degree in criminology and security studies from the prestigious National open university of Nigeria. She brings this same commitment and excellence to her work in social impact."
         },
         {
             content: "Under her leadership, White Roses Foundation continues to be a growing light in the lives of girls who need it most."
