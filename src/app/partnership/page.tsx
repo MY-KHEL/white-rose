@@ -52,7 +52,7 @@ const Partnership = () => {
                                 className="w-fit max-md:mx-auto">
                                    <Link href={"https://wa.chatfuel.com/Whiterosesfoundation"} target="_blank" >
                                 <button className="bg-green/90 cursor-pointer hover:bg-green mt-4 rounded-full rubik-font text-lg text-white px-4 py-[8px] ">
-                                     Become a Volunteer <ChevronRight size={18} color="white" className="inline-flex items-center" />
+                                     Become a Partner <ChevronRight size={18} color="white" className="inline-flex items-center" />
                                 </button>
                                      </Link>
                                      
